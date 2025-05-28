@@ -1,0 +1,4 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+python-jose[cryptography]==3.3.0   # para generar/verificar JWT
+passlib[bcrypt]==1.7.4             # para hashear passwords

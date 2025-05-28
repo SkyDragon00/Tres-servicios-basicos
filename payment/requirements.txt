@@ -1,0 +1,5 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+python-jose[cryptography]==3.3.0   # para verificar el token recibido
+httpx==0.24.0                      # para llamadas HTTP a auth/order si las necesitas
+requests==2.31.0
